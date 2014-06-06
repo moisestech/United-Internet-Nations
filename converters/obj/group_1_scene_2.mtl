@@ -1,0 +1,620 @@
+# Blender MTL File: 'None'
+# Material Count: 67
+
+newmtl Color_B24
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.160000 0.109804 0.094118
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Material1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/Material1.jpg
+
+newmtl Material4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.533333 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Material7
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.671373 0.671373 0.671373
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Metal_Panel
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_color_white_cube_sculpture/abstract_color_white_cube_sculpture/Metal_Panel.jpg
+
+newmtl Metal_Rough
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_glass_gray_sculpture/abstract_glass_gray_sculpture/Metal_Rough.jpg
+
+newmtl Translucent_Glass_Gray
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.401569 0.401569 0.401569
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0008_LavenderBlush
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.752941 0.768627
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0016_Tomato
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.310588 0.222745
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0020_Red
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0046_Gold
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.674510 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0069_LimeGreen
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.156863 0.643137 0.156863
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0097_DeepSkyBlue
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.599216 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _0135_DarkGray
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.254118 0.254118 0.254118
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl _96_96_96
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.301176 0.301176 0.301176
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Beige_1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.661961 0.592941 0.451765
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Blue_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Brick_Red_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.621176 0.294902 0.294902
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Brown_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.436078 0.216471 0.059608
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Charcoal_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.109804 0.109804 0.109804
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Charcoal_.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.109804 0.109804 0.109804
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Cornsilk_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.778039 0.690196
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __CorrogateShiny_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_color_white_cube_sculpture/abstract_color_white_cube_sculpture/__CorrogateShiny_.jpg
+
+newmtl __DarkGreen_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.313726 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __DarkSalmon_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.730980 0.470588 0.382745
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Dark_Green_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.194510 0.285490 0.015686
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __DodgerBlue_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.407843 0.643137 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Glass-block_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_house_sculpture/abstract_house_sculpture/__Glass-block_.jpg
+
+newmtl __Glass_Blue_Tint_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.028235 0.549020 0.756078
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Glass_Gold_Tint_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.756078 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Gold_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.674510 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Indidan_Red_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.756078 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __LightGray_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.530196 0.530196 0.530196
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Low_E_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.225882 0.655686 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __MediumSpringGreen_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.784314 0.483137
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Orange_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.517647 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __PaleVioletRed_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.687059 0.351373 0.461176
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Purple_Glas_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.461176 0.351373 0.687059
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Red_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Sketchy_Scale_Siding_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_color_white_cube_sculpture/abstract_color_white_cube_sculpture/__Sketchy_Scale_Siding_.jpg
+
+newmtl __Tan_Glass_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.658824 0.564706 0.439216
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl __Terrazzo_
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_house_sculpture/abstract_house_sculpture/__Terrazzo_.jpg
+
+newmtl jean_blue
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.112941 0.147451 0.207059
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.712157 0.705882 0.696471
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.004
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.006
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.007
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.008
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.009
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material.010
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.004
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.006
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_0.007
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 0.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_2.png
+map_d /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_2.png
+
+newmtl material_3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 0.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_3.png
+map_d /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_3.png
+
+newmtl material_4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 0.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_4.png
+map_d /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_4.png
+
+newmtl material_5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.718431 0.718431 0.718431
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl material_5.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 0.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_5.png
+map_d /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/abstract_bike_wheel_sculpture/abstract_bike_wheel_sculpture/material_5.png

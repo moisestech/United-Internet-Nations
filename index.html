@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GALLERY404</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+    </head>
+
+    <body>
+
+        <div id="scene">
+            <div id="section_exp"></div>
+        </div>
+
+        <div id="progress">
+            <span id="message">INSTALLING SHOW...</span>
+            <center>
+                <div id="progressbar" class="shadow"><div id="bar" class="shadow"></div></div>
+                <div id="start" class="disabled">ENTER</div>
+            </center>
+        </div>
+
+
+
+
+        <div id="blocker">
+
+            <div id="leftPanel">
+              <div id="leftWrapper">
+              <div id="intro">
+              <img src="images/logo.png" />
+              <p>An open source browser-based<br /> 3D art gallery platform.</p>
+              </div>
+              <br />
+              <div id="instructions">
+                <hr>
+                <br />
+                  <div class="click">
+                    <img src="images/click.svg" /> <p> Click anywhere on<br/ > the screen to start </p>
+                  </div>
+                  <div class="mouse">
+                    <img src="images/mouse.svg" /> <p> Move your mouse<br />to look around</p>
+                  </div>
+                  <div class="keyboard">
+                    <img src="images/keyboard.svg" /> <p> Use Q,W,E,A,S,D<br /> keys to move </p>
+                  </div>
+                   <div class="jump">
+                    <img src="images/space.svg" /> <p> Use the spacebar<br />to jump </p>
+                  </div>
+                   <div class="screenshot">
+                    <img src="images/screenshot.svg" /> <p> Press P to<br />take a screenshot</p>
+                  </div>
+                   <div class="esc">
+                    <img src="images/esc.svg" /> <p> Press Escape to<br />show home screen </p>
+                  </div>
+                  <br />
+                  <br />
+                  <hr>
+                    <a class="ghlink" target="_blank" href="https://github.com/palouman/Gallery404"><img class="github" src="images/github.svg" /><p class="fork">Create your own!<br /> Download a basic template<br /> on GitHub </p></a>
+              </div>
+              <div id="credits"><p>GALLERY404 is built with webGL using mr.doob's <a target="_blank" href="http://www.threejs.org">three.js</a> with sourcing from 3D model repositories such as <a href="http://www.turbosquid.com" target="_blank">turbosquid.</a></p></div>
+            </div>
+            </div>
+
+            <div id="rightPanel">
+                <h4>Current Show:</h4>
+              <h1> The Classics </h1>
+               <div class="artist" id="koons">
+               <img src="images/koonsheadspin.gif"/><h3>Jeff Koons</h3><p>Jeffrey "Jeff" Koons (born January 21, 1955) is an American artist known for his reproductions of banal objects—such as Balloon animals produced in stainless steel with mirror finish surfaces. He lives and works in both New York City and his hometown of York, Pennsylvania.</p>
+               </div>
+               <div class="artist" id="bourgeois">
+               <img src="images/burgoiseheadspin.gif"/><h3>Louise Bourgeois</h3><p>Louise Joséphine Bourgeois (December 25, 1911 – May 31, 2010), was a renowned French-American artist and sculptor, best known for her contributions to both modern and contemporary art. In 2011 one of her works sold for $10.7 million, a new record price for the artist at auction, and the highest price paid for a work by a woman.</p>
+               </div>
+               <div class="artist" id="warhol">
+               <img src="images/warholheadspin.gif"/><h3>Andy Warhol</h3><p>Andy Warhol (August 6, 1928 – February 22, 1987) was an American artist who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, celebrity culture and advertisement that flourished by the 1960s.</p>
+               </div>
+               <div class="artist" id="kruger">
+               <img src="images/krugerheadspin.gif"/><h3>Barbara Kruger</h3><p>Barbara Kruger (born January 26, 1945) is an American conceptual artist. Much of her work consists of black-and-white photographs overlaid with declarative captions—in white-on-red Futura Bold Oblique or Helvetica Ultra Condensed.</p>
+               </div>
+               <div class="artist" id="kruger">
+               <img src="images/brancusiheadspin.gif"/><h3>Constantin Brancusi</h3><p>Constantin Brâncuși  (February 19, 1876 – March 16, 1957) was a Romanian-born sculptor who made his career in France. His abstract style emphasizes clean geometrical lines that balance forms inherent in his materials with the symbolic allusions of representational art.</p>
+               </div>
+            </div>
+
+        </div>
+
+
+        <div id="keyGUI">
+            <div id="q" class="key">Q<br /><span class="key-info">Turn Left</span></div><div id="w" class="key">W<br /><span class="key-info">Forward</span></div><div id="e" class="key">E<br /><span class="key-info">Turn Right</span></div> <br />
+            <div id="a" class="key">A<br /><span class="key-info">Move Left</span></div><div id="s" class="key">S<br /><span class="key-info">Backwards</span></div><div id="d" class="key">D<br /><span class="key-info">Move Right</span></div>
+        </div>
+
+
+        <script src="js/three.min.js"></script>
+        <script src="js/detector.js"></script>
+        <script src="js/stats.min.js"></script>
+        <script src="js/PointerLockControls.js"></script>
+        <script src="js/THREEx.screenshot.js"></script>
+        <script src="js/loaders/lzma.js"></script>
+        <script src="js/loaders/ctm.js"></script>
+        <script src="js/loaders/CTMLoader.js"></script>
+        <script src="js/loaders/BinaryLoader.js"></script>
+        <script src="js/loaders/OBJLoader.js"></script>
+        <script src="js/loaders/OBJMTLLoader.js"></script>
+        <script src="js/loaders/VTKLoader.js"></script>
+        <script src="js/loaders/STLLoader.js"></script>
+        <script src="js/loaders/ColladaLoader.js"></script>
+        <script src="js/loaders/UTF8Loader.js"></script>
+        <script src="js/loaders/MTLLoader.js"></script>
+
+        <script>
+
+            // Detects for webGL, serves error message if doesnt exist     
+                   
+            if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+
+            // Declare global variables
+
+            var SCREEN_WIDTH = window.innerWidth;
+            var SCREEN_HEIGHT = window.innerHeight;
+
+            var container,stats;
+
+            var camera, scene, loaded;
+            var renderer;
+            var ray;
+            var objects=[];
+
+            var currentScene;
+
+            var controls,time = Date.now();
+            var blocker = document.getElementById( 'blocker' );
+            var instructions = document.getElementById( 'instructions' );
+
+            var mesh, zmesh, geometry;
+
+            var mouseX = 0, mouseY = 0;
+
+            var windowHalfX = window.innerWidth / 2;
+            var windowHalfY = window.innerHeight / 2;
+
+            document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+
+            //Start Functions
+
+            initLoadScene();
+            animate();
+            THREEx.Screenshot.bindKey(renderer);
+
+
+
+        function initGalleryScene(){
+
+            // Controls Pointer Lock API
+
+            var havePointerLock = 'pointerLockElement' in document || 'mozPointerLockElement' in document || 'webkitPointerLockElement' in document;
+
+            if ( havePointerLock ) {
+
+                var element = document.body;
+
+                var pointerlockchange = function ( event ) {
+
+                    if ( document.pointerLockElement === element || document.mozPointerLockElement === element || document.webkitPointerLockElement === element ) {
+
+                        controls.enabled = true;
+
+                        blocker.style.display = 'none';
+                        console.log('mouse lock on')
+
+                    } else {
+
+                        controls.enabled = false;
+
+                        blocker.style.display = 'block';
+
+                        instructions.style.display = '';
+                        console.log('mouse lock off')
+
+                    }
+
+                }
+
+                var pointerlockerror = function ( event ) {
+                    instructions.style.display = '';
+                }
+
+                // Hook pointer lock state change events
+                document.addEventListener( 'pointerlockchange', pointerlockchange, false );
+                document.addEventListener( 'mozpointerlockchange', pointerlockchange, false );
+                document.addEventListener( 'webkitpointerlockchange', pointerlockchange, false );
+
+                document.addEventListener( 'pointerlockerror', pointerlockerror, false );
+                document.addEventListener( 'mozpointerlockerror', pointerlockerror, false );
+                document.addEventListener( 'webkitpointerlockerror', pointerlockerror, false );
+
+                blocker.addEventListener( 'click', function ( event ) {
+                    instructions.style.display = 'none';
+                    document.getElementById('keyGUI').style.display = 'block';
+                    container.appendChild( stats.domElement );
+
+                    // Ask the browser to lock the pointer
+                    element.requestPointerLock = element.requestPointerLock || element.mozRequestPointerLock || element.webkitRequestPointerLock;
+
+                    if ( /Firefox/i.test( navigator.userAgent ) ) {
+
+                        var fullscreenchange = function ( event ) {
+
+                            if ( document.fullscreenElement === element || document.mozFullscreenElement === element || document.mozFullScreenElement === element ) {
+
+                                document.removeEventListener( 'fullscreenchange', fullscreenchange );
+                                document.removeEventListener( 'mozfullscreenchange', fullscreenchange );
+
+                                element.requestPointerLock();
+                            }
+
+                        }
+
+                        document.addEventListener( 'fullscreenchange', fullscreenchange, false );
+                        document.addEventListener( 'mozfullscreenchange', fullscreenchange, false );
+
+                        element.requestFullscreen = element.requestFullscreen || element.mozRequestFullscreen || element.mozRequestFullScreen || element.webkitRequestFullscreen;
+
+                        element.requestFullscreen();
+
+                    } else {
+
+                        element.requestPointerLock();
+
+                    }
+
+                }, false );
+
+            } else {
+
+                // Error Message
+
+                instructions.innerHTML = 'Your browser doesn\'t seem to support Pointer Lock API';
+
+            }
+
+
+
+        }
+
+            function $( id ) {
+
+                // Allows you to reference elements with $()
+
+                return document.getElementById( id );
+
+            }
+
+            function handle_update( result, pieces ) {
+
+                // Handles changing from Loading Scene to Gallery Scene
+
+                refreshSceneView( result );
+
+                var m, material, count = 0;
+
+                for ( m in result.materials ) {
+
+                    material = result.materials[ m ];
+                    if ( ! ( material instanceof THREE.MeshFaceMaterial ) ) {
+
+                        if( !material.program ) {
+
+                            console.log(m);
+                            renderer.initMaterial( material, result.scene.__lights, result.scene.fog );
+
+                            count += 1;
+                            if( count > pieces ) {
+
+                                break;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            function createLoadScene() {
+
+                // Handles Initial Load Scene webGL
+
+                var result = {
+
+                    scene:  new THREE.Scene(),
+                    camera: new THREE.PerspectiveCamera( 65, window.innerWidth / window.innerHeight, 1, 1500 )
+
+                };
+
+                result.camera.position.z = 100;
+
+                var object, geometry, material, light, count = 500, range = 200;
+
+                material = new THREE.MeshLambertMaterial( { color:0xffffff } );
+                geometry = new THREE.CubeGeometry( 5, 5, 5 );
+
+                result.scene.matrixAutoUpdate = false;
+
+                return result;
+
+            }
+
+            function initLoadScene() {
+
+                // Initialize Load Scene
+
+                container = document.createElement( 'div' );
+                document.body.appendChild( container );
+
+                var loadScene = createLoadScene();
+
+                // Set current Scene
+
+                currentScene = 0;
+
+                camera = loadScene.camera;
+                scene = loadScene.scene;
+
+                renderer = new THREE.WebGLRenderer({
+                        preserveDrawingBuffer : true  // to allow screenshot
+                });
+
+                renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT );
+                renderer.domElement.style.position = "relative";
+                container.appendChild( renderer.domElement );
+
+                // Controls Framerate Statistic in Top Right
+
+                stats = new Stats();
+                stats.domElement.style.position = 'absolute';
+                stats.domElement.style.top = '0px';
+                stats.domElement.style.right = '0px';
+                stats.domElement.style.zIndex = 100;
+
+                // Click Start Button and Activate Scene
+
+                $( "start" ).addEventListener( 'click', onStartClick, false );
+
+                var callbackProgress = function( progress, result ) {
+
+                    // Handles "loading bar"
+
+                    var bar = 250,
+                        total = progress.total_models + progress.total_textures,
+                        loaded = progress.loaded_models + progress.loaded_textures;
+
+                    if ( total )
+                        bar = Math.floor( bar * loaded / total );
+
+                    $( "bar" ).style.width = bar + "px";
+
+                    count = 0;
+                    for ( var m in result.materials ) count++;
+
+                    handle_update( result, Math.floor( count/total ) );
+
+                }
+
+                var callbackFinished = function( result ) {
+
+                    // When Loading Finished, Change to Gallery View
+
+                    console.log(result.scene)
+
+                    loaded = result;
+
+                    $( "message" ).style.display = "none";
+                    $( "progressbar" ).style.display = "none";
+                    $( "start" ).style.display = "block";
+                    $( "start" ).className = "enabled";
+
+                    handle_update( result, 1 );
+
+                    result.scene.traverse( function ( object ) {
+
+                        if ( object.userData.ray === true ) {
+                            objects.push( object );
+                        }
+
+                    } );
+
+
+                }
+
+                $( "progress" ).style.display = "block";
+
+                var loader = new THREE.SceneLoader();
+                loader.callbackProgress = callbackProgress;
+
+                // load JSON file with basically everything in it
+
+                loader.load( "js/scene.js", callbackFinished );
+
+                loader.addGeometryHandler( "binary", THREE.BinaryLoader );
+                loader.addGeometryHandler( "ctm", THREE.CTMLoader );
+                loader.addGeometryHandler( "vtk", THREE.VTKLoader );
+                loader.addGeometryHandler( "stl", THREE.STLLoader );
+
+                loader.addHierarchyHandler( "obj", THREE.OBJLoader );
+                loader.addHierarchyHandler( "objMTL", THREE.OBJMTLLoader );
+                loader.addHierarchyHandler( "dae", THREE.ColladaLoader );
+                loader.addHierarchyHandler( "utf8", THREE.UTF8Loader );
+
+                window.addEventListener( 'resize', onWindowResize, false );
+
+            }
+
+            function onWindowResize() {
+
+                // Handles Responsive Window Resizing
+
+                windowHalfX = window.innerWidth / 2;
+                windowHalfY = window.innerHeight / 2;
+
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+
+                renderer.setSize( window.innerWidth, window.innerHeight );
+
+            }
+
+            function setButtonActive( id ) {
+
+                // Ready to Go
+
+                $( "start" ).style.backgroundColor = "green";
+
+            }
+
+            function onStartClick() {
+
+                // var dae, skin;
+
+                // var loader = new THREE.ColladaLoader();
+                // loader.options.convertUpAxis = true;
+                // loader.load( 'models/collada/spinning_tower/spinning_tower.dae', function ( collada ) {
+
+                //     dae = collada.scene;
+                //     skin = collada.skins[ 0 ];
+
+                //     dae.scale.x = dae.scale.y = dae.scale.z = 0.002;
+                //     dae.updateMatrix();
+
+                // } );
+
+                // scene.add(dae);
+
+                // Click to hide splash screen and enter Gallery
+
+                $( "progress" ).style.display = "none";
+                $( "blocker" ).style.display = "block";
+                document.body.style.background = "white";
+                instructions.style.display = '';
+                document.body.style.backgroundColor = 'white';
+
+                // Switch to Gallery Camera
+
+                camera = loaded.currentCamera;
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+
+                scene = loaded.scene;
+
+                // Add Controls to Scene
+
+                controls = new THREE.PointerLockControls( camera  );
+                scene.add( controls.getObject() );
+
+                renderer.gammaInput = true;
+                renderer.gammaOutput = true;
+                renderer.physicallyBasedShading = true;
+
+                initGalleryScene();
+                currentScene = 1;
+
+                // Controls Collission Detection
+
+                ray = new THREE.Raycaster();
+                ray.ray.direction.set( 0, -1, 0 );
+
+                // Calls Loading Library
+
+                var manager = new THREE.LoadingManager();
+                manager.onProgress = function ( item, loaded, total ) {
+                    console.log( item, loaded, total );
+                };
+
+                 var loader = new THREE.OBJMTLLoader( manager );
+                
+                loader.load( 'models/collada/spinning_tower/spinning_tower.obj', 'models/collada/spinning_tower/spinning_tower.mtl', function ( object ) {
+
+                   
+
+                    object.position.set(0,0,0);
+                    object.scale.set(30,30,30);
+                    scene.add( object );
+
+                        });
+
+            }
+
+       
+            function onDocumentMouseMove(event) {
+
+                // Controls Panning Around
+
+                mouseX = ( event.clientX - windowHalfX * 1.5 );
+                mouseY = ( event.clientY - windowHalfY * 1.5 );
+
+            }
+                      
+            function animate() {
+
+                // Handles movement & collision detection animation
+
+                requestAnimationFrame( animate );
+                if (currentScene == 0){
+                    createLoadScene();
+                    stats.update();
+                }
+
+                if (currentScene == 1){
+                    if(controls.enabled){
+                        controls.isOnObject( false );
+                        ray.ray.origin.copy( controls.getObject().position );
+                        ray.ray.origin.y -= 10;  
+                        ray.ray.origin.z -= 10; 
+                        var intersections = ray.intersectObjects( objects );
+                        if ( intersections.length > 0 ) {
+                            var distance = intersections[ 0 ].distance;
+                            if ( distance > 0 && distance < 10 ) {
+                                controls.isOnObject( true );
+                            }
+                        }
+                    }
+
+                    controls.update( Date.now() - time );
+                    renderer.render( scene, camera );
+                    time = Date.now();
+           
+                }
+
+                // Update FPS info
+
+                stats.update();
+            }
+
+            function generateSceneView( result ) {
+
+                // Brings everything together, ties javascript objects to JSON data
+
+                var config = [
+                [ "Objects",    "obj", result.objects ],
+                [ "Geometries", "geo", result.geometries ],
+                [ "Materials",  "mat", result.materials ],
+                [ "Textures",   "tex", result.textures ],
+                [ "Lights",     "lit", result.lights ],
+                [ "Cameras",    "cam", result.cameras ]
+                ];
+
+                var html = "";
+
+                for ( var i = 0; i < config.length; i++ )
+                    html += generateSection( config[i][0], config[i][1], config[i][2] );
+
+                return html;
+
+            }
+
+
+            // Scene explorer user interface, currently unsued code past this line
+
+            function toggle( id ) {
+
+                var scn = $( "section_" + id ).style,
+                    btn = $( "plus_" + id );
+
+                if ( scn.display == "block" ) {
+
+                    scn.display = "none";
+                    btn.innerHTML = "[+]";
+
+                }
+                else {
+
+                    scn.display = "block";
+                    btn.innerHTML = "[-]";
+
+                }
+
+            }
+
+            function createToggle( label ) { return function() { toggle( label ) } };
+
+            function refreshSceneView( result ) {
+
+
+                $( "section_exp" ).innerHTML = generateSceneView( result );
+                var config = [ "obj", "geo", "mat", "tex", "lit", "cam" ];
+                for ( var i = 0; i < config.length; i++ )
+                $( "plus_" + config[i] ).addEventListener( 'click', createToggle( config[i] ), false );
+
+            }
+
+            function generateSection( label, id, objects ) {
+
+
+                var html = "";
+
+                html += "<h3><a id='plus_" + id + "' href='#'>[+]</a> " + label + "</h3>";
+                html += "<div id='section_" + id + "' class='part'>";
+
+                for( var o in objects ) {
+
+                    html += o + "<br/>";
+
+                }
+                html += "</div>";
+
+                return html;
+
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,77 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl Metal_Steel_Textured_White
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/complex_geometry_sculptures/complex_geometry_sculptures/Metal_Steel_Textured_White.jpg
+
+newmtl Translucent_Glass_Aqua
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.225882 0.655686 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Translucent_Glass_Gold
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/complex_geometry_sculptures/complex_geometry_sculptures/Translucent_Glass_Gold.jpg
+
+newmtl Translucent_Glass_Green_Dark
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.194510 0.285490 0.015686
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Translucent_Glass_Red
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Translucent_Glass_Tan
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.658824 0.564706 0.439216
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl Translucent_Resin_Crush_Blue
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
+map_Kd /Users/mannypalou/Dropbox/Art404_Projects/Gallery404/Exhibitions/3DWarehouse/models/collada/complex_geometry_sculptures/complex_geometry_sculptures/Translucent_Resin_Crush_Blue.jpg
+
+newmtl material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.536471 0.552157 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni -1.000000
+d 1.000000
+illum 2
